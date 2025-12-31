@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KingShark | Premium Fashion Store</title>
+    <link rel="stylesheet" href="shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛍️</text></svg>"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="navLeft">
+          <div class="logo-container">
+            <h1 class="shopName">KingShark</h1>
+            <span class="tagline">Premium Fashion</span>
+          </div>
+          <ul class="itemLeft">
+            <li>
+              <a href="#" class="nav-link active"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                ><i class="fas fa-shopping-bag"></i> Shop</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link"><i class="fas fa-blog"></i> Blog</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                ><i class="fas fa-briefcase"></i> Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="navRight">
+          <div class="search-container">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search products..."
+            />
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </div>
+          <ul class="itemRight">
+            <li>
+              <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">3</span>
+                <span class="cart-text">CART</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="user-btn">
+                <i class="fas fa-user"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="menu-toggle">
+                <i class="fas fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="imgCover">
+      <div class="hero-overlay"></div>
+      <img
+        src="./image/shutterstock_750704461.jpg"
+        class="coverPhoto"
+        alt="Winter Collection Background"
+      />
+      <div class="container">
+        <h5 class="subtitle">The Winter Collection</h5>
+        <h1 class="hotList">Hotlist 2025</h1>
+        <p class="hero-description">
+          Discover premium fashion pieces curated for the modern individual.
+          Limited edition winter collection now available.
+        </p>
+        <button class="btn hero-btn">
+          <span>View Collection</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">200+</span>
+            <span class="stat-label">New Arrivals</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">50%</span>
+            <span class="stat-label">Winter Sale</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services-container">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-truck-fast"></i>
+          </div>
+          <div class="service-content">
+            <h5>Free Delivery</h5>
+            <p>Free shipping on orders over $250</p>
+            <a href="#" class="service-link">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="service-content">
+            <h5>Money Back Guarantee</h5>
+            <p>30-day return policy for all items</p>
+            <a href="#" class="service-link">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="service-content">
+            <h5>Secure Payment</h5>
+            <p>100% secure payment processing</p>
+            <a href="#" class="service-link">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="service-content">
+            <h5>Authenticity Guaranteed</h5>
+            <p>All products are 100% authentic</p>
+            <a href="#" class="service-link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-categories">
+      <div class="section-header">
+        <h2 class="section-title">Featured Categories</h2>
+        <p class="section-subtitle">Explore our curated collections</p>
+      </div>
+
+      <div class="categories-grid">
+        <div class="category-card watch-category">
+          <div class="category-image">
+            <img src="./image/Watch-PNG-Image.png" alt="Luxury Watches" />
+            <div class="category-overlay"></div>
+          </div>
+          <div class="category-content">
+            <span class="category-badge">New Arrivals</span>
+            <h4>Luxury Watches</h4>
+            <p>2025 Collection</p>
+            <a href="#" class="category-link"
+              >Shop Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="category-card shoe-category">
+          <div class="category-image">
+            <img
+              src="./image/pngtree-white-shoes-png-image_8043368.png"
+              alt="Men's Shoes"
+            />
+            <div class="category-overlay"></div>
+          </div>
+          <div class="category-content">
+            <span class="category-badge">Best Sellers</span>
+            <h4>Men's Shoes</h4>
+            <p>New Model 2025</p>
+            <a href="#" class="category-link"
+              >Shop Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="category-card apparel-category">
+          <div class="category-image">
+            <img src="./image/men-apparel.avif" alt="Men's Apparel" />
+            <div class="category-overlay"></div>
+          </div>
+          <div class="category-content">
+            <span class="category-badge">Trending</span>
+            <h4>Men's Apparel</h4>
+            <p>Winter Collection</p>
+            <a href="#" class="category-link"
+              >Shop Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-filter">
+      <div class="filter-container">
+        <div class="filter-left">
+          <h3 class="filter-title">All Products</h3>
+          <div class="category-tags">
+            <a href="#" class="tag active">All</a>
+            <a href="#" class="tag">Handbags</a>
+            <a href="#" class="tag">Men</a>
+            <a href="#" class="tag">Shoes</a>
+            <a href="#" class="tag">Watches</a>
+            <a href="#" class="tag">Women</a>
+            <a href="#" class="tag">Accessories</a>
+          </div>
+        </div>
+
+        <div class="filter-right">
+          <div class="filter-options">
+            <select class="filter-select">
+              <option>Sort by: Popularity</option>
+              <option>Price: Low to High</option>
+              <option>Price: High to Low</option>
+              <option>Newest Arrivals</option>
+              <option>Best Rated</option>
+            </select>
+            <button class="filter-btn">
+              <i class="fas fa-filter"></i>
+              Filter
+            </button>
+            <div class="view-toggle">
+              <button class="view-btn active">
+                <i class="fas fa-th-large"></i>
+              </button>
+              <button class="view-btn"><i class="fas fa-list"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-grid">
+      <div class="products-container">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/jean-jacket.png" alt="Best Jean Jackets" />
+            <div class="product-badges">
+              <span class="badge sale">SALE</span>
+              <span class="badge new">NEW</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Best Jean Jackets</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-count">(128)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$259.00</span>
+              <span class="original-price">$349.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/t-shirt.png" alt="Best T-shirts" />
+            <div class="product-badges">
+              <span class="badge hot">HOT</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Premium T-shirts</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <span class="rating-count">(89)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$89.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/watchBox.png" alt="Rolex Watches" />
+            <div class="product-badges">
+              <span class="badge premium">PREMIUM</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Rolex Watches</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="rating-count">(256)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$2,599.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="./image/210-2102442_man-watch-png-gold-watch-transparent-background.png"
+              alt="Man Watches"
+            />
+            <div class="product-badges">
+              <span class="badge sale">SALE</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Golden Chronograph</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-count">(167)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$459.00</span>
+              <span class="original-price">$599.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/sunglasses.png" alt="Sunglasses" />
+            <div class="product-badges">
+              <span class="badge sale">SALE</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Premium Sunglasses</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <span class="rating-count">(94)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$159.00</span>
+              <span class="original-price">$199.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/mens-pant.png" alt="Men Cotton Pants" />
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Cotton Chino Pants</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-count">(213)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$79.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/Watch-PNG-Image (1).png" alt="Watches" />
+            <div class="product-badges">
+              <span class="badge hot">HOT</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Smart Watch Pro</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="rating-count">(342)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$299.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./image/cap.png" alt="Baseball Caps" />
+            <div class="product-badges">
+              <span class="badge hot">HOT</span>
+              <span class="badge sale">SALE</span>
+            </div>
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+            <button class="quick-view">Quick View</button>
+          </div>
+          <div class="product-content">
+            <h5 class="product-title">Designer Baseball Cap</h5>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <span class="rating-count">(178)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$49.00</span>
+              <span class="original-price">$69.00</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="load-more">
+      <button class="btn load-more-btn">
+        <i class="fas fa-sync-alt"></i>
+        Load More Products
+      </button>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </section>
+
+    <section class="instagram-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <i class="fab fa-instagram"></i>
+          @KingSharkFashion
+        </h2>
+        <p class="section-subtitle">
+          Get inspired by our community from around the world
+        </p>
+        <a href="#" class="instagram-follow">
+          <i class="fab fa-instagram"></i>
+          Follow Us
+        </a>
+      </div>
+
+      <div class="instagram-grid">
+        <div class="instagram-post">
+          <img src="./image/malemodel1.jpg" alt="Fashion Inspiration" />
+          <div class="post-overlay">
+            <div class="post-likes"><i class="fas fa-heart"></i> 2.4k</div>
+            <div class="post-comments"><i class="fas fa-comment"></i> 142</div>
+          </div>
+        </div>
+
+        <div class="instagram-post">
+          <img src="./image/malemodel2.jpg" alt="Fashion Inspiration" />
+          <div class="post-overlay">
+            <div class="post-likes"><i class="fas fa-heart"></i> 1.8k</div>
+            <div class="post-comments"><i class="fas fa-comment"></i> 89</div>
+          </div>
+        </div>
+
+        <div class="instagram-post">
+          <img src="./image/femalModel1.jpg" alt="Fashion Inspiration" />
+          <div class="post-overlay">
+            <div class="post-likes"><i class="fas fa-heart"></i> 3.2k</div>
+            <div class="post-comments"><i class="fas fa-comment"></i> 214</div>
+          </div>
+        </div>
+
+        <div class="instagram-post">
+          <img src="./image/femalModel2.avif" alt="Fashion Inspiration" />
+          <div class="post-overlay">
+            <div class="post-likes"><i class="fas fa-heart"></i> 4.1k</div>
+            <div class="post-comments"><i class="fas fa-comment"></i> 312</div>
+          </div>
+        </div>
+
+        <div class="instagram-post">
+          <img src="./image/femalModel3.jpeg" alt="Fashion Inspiration" />
+          <div class="post-overlay">
+            <div class="post-likes"><i class="fas fa-heart"></i> 2.9k</div>
+            <div class="post-comments"><i class="fas fa-comment"></i> 167</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands-section">
+      <div class="section-header">
+        <h3 class="brands-title">Trusted by Leading Brands</h3>
+      </div>
+      <div class="brands-slider">
+        <div class="brand-logo">
+          <img src="./image/Chanel-Logo.png" alt="Chanel" />
+        </div>
+        <div class="brand-logo">
+          <img src="./image/champion_logo.png" alt="Champion" />
+        </div>
+        <div class="brand-logo">
+          <img src="./image/Adidas-Logo.png" alt="Adidas" />
+        </div>
+        <div class="brand-logo">
+          <img src="./image/Guess-Symbol.png" alt="Guess" />
+        </div>
+        <div class="brand-logo">
+          <img src="./image/NikeLogo.png" alt="Nike" />
+        </div>
+        <div class="brand-logo">
+          <img src="./image/Calvin-Klein-Logo.png" alt="Calvin Klein" />
+        </div>
+        <div class="brand-logo">
+          <img src="./image/paypal-logo-png-6.png" alt="PayPal" />
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+        <div class="newsletter-content">
+          <h2>Stay in the Loop</h2>
+          <p>
+            Subscribe to our newsletter for exclusive deals, style tips, and new
+            arrivals.
+          </p>
+          <form class="newsletter-form">
+            <div class="form-group">
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <button type="submit" class="newsletter-btn">
+                Subscribe
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="newsletter-consent" checked />
+              <label for="newsletter-consent">
+                I agree to receive marketing emails from KingShark
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="newsletter-image">
+          <img src="./image/Watch-PNG-Image.png" alt="Newsletter" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <h2 class="footer-logo">KingShark</h2>
+            <p class="footer-tagline">
+              Premium fashion for the modern generation. Quality, style, and
+              innovation in every piece.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">Collections</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Contact Info</h4>
+            <div class="contact-info">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 123 Fashion Street,
+                Yangon, NY 10001
+              </p>
+              <p><i class="fas fa-phone"></i> +95 (01) 123-4567</p>
+              <p><i class="fas fa-envelope"></i> support@kingshark.com</p>
+            </div>
+            <div class="payment-methods">
+              <h5>We Accept</h5>
+              <div class="payment-icons">
+                <img src="./image/visaLogo.png" alt="Visa" />
+                <img src="./image/mastercardLogo.png" alt="Mastercard" />
+                <img src="./image/paypal-logo-png-6.png" alt="PayPal" />
+                <img src="./image/WaveMoney.png" alt="Wave Money" />
+                <img src="./image/kpayLogo.webp" alt="KPay" />
+                <img src="./image/ayaLogo.png" alt="Aya Bank" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            <p>
+              &copy; 2025 KingShark. All rights reserved. | Premium Fashion
+              Store
+            </p>
+          </div>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </footer>
+
+    <div class="quick-view-modal">
+      <div class="modal-content">
+        <button class="modal-close"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const addToCartButtons = document.querySelectorAll(".add-to-cart");
+        addToCartButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const cartCount = document.querySelector(".cart-count");
+            let currentCount = parseInt(cartCount.textContent);
+            cartCount.textContent = currentCount + 1;
+
+            this.innerHTML = '<i class="fas fa-check"></i> Added!';
+            this.style.background = "#10b981";
+
+            setTimeout(() => {
+              this.innerHTML =
+                '<i class="fas fa-shopping-cart"></i> Add to Cart';
+              this.style.background = "";
+            }, 2000);
+          });
+        });
+
+        const wishlistButtons = document.querySelectorAll(".wishlist-btn");
+        wishlistButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const icon = this.querySelector("i");
+            if (icon.classList.contains("far")) {
+              icon.classList.remove("far");
+              icon.classList.add("fas");
+              icon.style.color = "#ef4444";
+            } else {
+              icon.classList.remove("fas");
+              icon.classList.add("far");
+              icon.style.color = "";
+            }
+          });
+        });
+
+        const backToTopButton = document.querySelector(".back-to-top");
+        window.addEventListener("scroll", () => {
+          if (window.pageYOffset > 300) {
+            backToTopButton.style.opacity = "1";
+            backToTopButton.style.visibility = "visible";
+          } else {
+            backToTopButton.style.opacity = "0";
+            backToTopButton.style.visibility = "hidden";
+          }
+        });
+
+        backToTopButton.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        const newsletterForm = document.querySelector(".newsletter-form");
+        newsletterForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const submitBtn = this.querySelector(".newsletter-btn");
+          const originalText = submitBtn.innerHTML;
+
+          submitBtn.innerHTML = '<i class="fas fa-check"></i> Subscribed!';
+          submitBtn.style.background = "#10b981";
+
+          setTimeout(() => {
+            submitBtn.innerHTML = originalText;
+            submitBtn.style.background = "";
+            this.reset();
+          }, 3000);
+        });
+
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLeft = document.querySelector(".navLeft");
+        menuToggle.addEventListener("click", (e) => {
+          e.preventDefault();
+          navLeft.classList.toggle("mobile-active");
+        });
+      });
+    </script>
+  </body>
+</html>
